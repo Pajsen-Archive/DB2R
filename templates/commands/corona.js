@@ -1,6 +1,6 @@
 exports.run = async(client, message, args, level) => {
     //This file cannot be changed!
-    message.channel.send("The offical support server for the DB2R package is https://discord.gg/KpkYUSM")
+    message.channel.send("Check out https://who.int/")
 };
 
 exports.conf = {
@@ -11,8 +11,8 @@ exports.conf = {
 };
 
 exports.help = {
-    name: "support",
-    category: "System",
-    description: "the offical support info for the DB2R package and related bots made using the DB2R package",
-    usage: "support"
+    name: "corona",
+    category: "Info",
+    description: "Latest updates on the Corona/Covid19 virus",
+    usage: "corona"
 };
