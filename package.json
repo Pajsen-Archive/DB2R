@@ -1,9 +1,9 @@
 {
-  "name": "@lucid_coder/free-discord-bot-code",
+  "name": "DB2R",
   "version": "1.2.1",
    "repository": {
     "type": "git",
-    "url": "https://github.com/pajsen9263/Discord-Bot-20-Rows"
+    "url": "https://github.com/pajsen9263/DB2R"
   },
   "dependencies": {
     "file-system": "^2.2.2",
