@@ -1,6 +1,6 @@
 {
-  "name": "db2r",
-  "version": "2.3.3",
+  "name": "@pajsen/db2r",
+  "version": "2.3.4",
   "description": "A 2 row discord bot",
   "license": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)",
   "repository": "pajsen9263/db2r",
@@ -13,7 +13,6 @@
   ],
   "dependencies": {
     "file-system": "^2.2.2",
-    "ncp": "^2.0.0",
-    "discord.js": "^12.4.0"
+    "ncp": "^2.0.0"
   }
 }
