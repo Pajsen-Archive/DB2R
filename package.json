@@ -1,9 +1,13 @@
 {
   "name": "@lucid_coder/free-discord-bot-code",
   "version": "1.2.1",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/pajsen9263/Discord-Bot-20-Rows"
+  },
   "dependencies": {
-    "file-system": "^2.2.2",
+    "file-system": "^2.2.3",
     "ncp": "^2.0.0"
   },
-  "license": "MIT"
+  "license": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)"
 }
