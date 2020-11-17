@@ -1,4 +1,9 @@
 {
-"name": "@lucid_coder/free-discord-bot-code",
-"version": "1.1.1"
+  "name": "@lucid_coder/free-discord-bot-code",
+  "version": "1.2.1",
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "ncp": "^2.0.0"
+  },
+  "license": "MIT"
 }
