@@ -1,11 +1,11 @@
 const fs = require('file-system');
 const ncp = require('ncp');
-module.exports.start = function client(token, name, color, owner, prefix, f) {
-    if(!token) throw new TypeError('A token must be provided [NsnsheNSmensjes.hSJenss], client(token, name, color, owner, prefix)');
-    if(!name) throw new TypeError('A name must be provided [UltraAwesome], client(token, name, color, owner, prefix)');
-    if(!color || !color.startsWith('#')) throw new TypeError('A hex color must be provided [#fffff], client(token, name, color, owner, prefix)');
-    if(!owner || !parseInt(owner)) throw new TypeError('Your ID must be provided [312551747027468290], client(token, name, color, owner, prefix)');
-    if(!prefix) throw new TypeError('A prefix must be provided [l!], client(token, name, color, owner, prefix)');
+module.exports.start = function start(token, name, color, owner, prefix, f) {
+    if(!token) throw new TypeError('A token must be provided [NsnsheNSmensjes.hSJenss], start(token, name, color, owner, prefix)');
+    if(!name) throw new TypeError('A name must be provided [UltraAwesome], start(token, name, color, owner, prefix)');
+    if(!color || !color.startsWith('#')) throw new TypeError('A hex color must be provided [#fffff], start(token, name, color, owner, prefix)');
+    if(!owner || !parseInt(owner)) throw new TypeError('Your ID must be provided [312551747027468290], start(token, name, color, owner, prefix)');
+    if(!prefix) throw new TypeError('A prefix must be provided [l!], start(token, name, color, owner, prefix)');
     var pack = `
     {
       "name": "${name}",
