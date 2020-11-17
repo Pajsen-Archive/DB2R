@@ -6,7 +6,7 @@
     "url": "https://github.com/pajsen9263/Discord-Bot-20-Rows"
   },
   "dependencies": {
-    "file-system": "^2.2.3",
+    "file-system": "^2.2.2",
     "ncp": "^2.0.0"
   },
   "license": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)"
