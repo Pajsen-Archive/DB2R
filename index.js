@@ -9,10 +9,10 @@ module.exports.start = function start(token, name, color, owner, prefix, f) {
     var pack = `
     {
       "name": "${name}",
-      "version": "1.0.0",
-      "description": "DiscordJSBot",
+      "version": "2.3.4",
+      "description": "DB2R",
       "license": "MIT",
-      "repository": "MayorChano/discordjs-template",
+      "repository": "Pajsen9263/db2r",
       "main": "index.js",
       "dependencies": {
       }
