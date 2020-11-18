@@ -22,6 +22,11 @@ How to use
 Create a file with any name, for example ```index.js```, add the following lines:
 ```javascript
 const run = require("@pajsen/db2r");
-run.start(token, name, color, owner, prefix)
+run.start("token", "name", "#color", "owner-id", "prefix")
 ```
-Then run ```node filename.js``` in a terminal. 
+Then run ```npm start``` in a terminal. 
+
+
+Latest update: 
+=============
+Added a auto update function on the start of the file. So if everytime you start the file, it updates everyting to get the latest packages and updates.

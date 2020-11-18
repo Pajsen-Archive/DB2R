@@ -9,10 +9,14 @@ module.exports.start = function start(token, name, color, owner, prefix, f) {
     var pack = `
     {
       "name": "${name}",
-      "version": "2.3.4",
-      "description": "DB2R",
+      "version": "1.0.0",
+      "description": "Discord Bot With 2 Lines of code",
       "license": "MIT",
-      "repository": "Pajsen9263/db2r",
+      "main": "npm start",
+      "scripts": {
+      "start": "npm update && node index.js"
+      },
+      "repository": "pajsen9263/db2r",
       "main": "index.js",
       "dependencies": {
       }

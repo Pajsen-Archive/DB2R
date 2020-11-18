@@ -1,8 +1,8 @@
 {
-  "name": "@pajsen/db2r",
-  "version": "2.3.5",
-  "description": "A 2 row discord bot",
-  "license": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)",
+  "name": "db2r",
+  "version": "2.4.4",
+  "description": "A bot without much coding, two lines and you are done",
+  "license": "MIT",
   "repository": "pajsen9263/db2r",
   "main": "index.js",
   "keywords": [
