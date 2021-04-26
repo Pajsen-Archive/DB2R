@@ -10,6 +10,8 @@
 
 ![GitHub contributors](https://img.shields.io/github/contributors/pajsen9263/DB2R)
 
+DB2R will be remade soon, I will add custom commands, better design, better setup and much more. I will keep updates here
+====
 DB2R 
 ====
 
